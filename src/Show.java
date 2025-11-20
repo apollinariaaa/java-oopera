@@ -35,7 +35,7 @@ public class Show {
     }
 
     public void printActors() {
-        System.out.println("Список актёров: ");
+
         for(Actor actor : listOfActors) {
             System.out.println(actor);
         }

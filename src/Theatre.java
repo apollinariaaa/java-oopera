@@ -42,16 +42,16 @@ public class Theatre {
         ballet.printActors();
         opera.printActors();
 
-        System.out.println("Замена актера");
+        System.out.println("Замена актера.");
         ballet.replaceActor("Ivanova", actor2);
 
         System.out.println("Списки актёров баллета: ");
         ballet.printActors();
 
-        System.out.println("Замена несуществующего актёра");
+        System.out.println("Замена несуществующего актёра.");
         opera.replaceActor("Petrova", actor1);
 
-        System.out.println("Либретто");
+        System.out.println("Либретто:");
         ballet.printLibretto();
         opera.printLibretto();
     }
